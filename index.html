@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Farm Rodent Control Ammanford & Llandeilo | Red Tractor Audit Support</title>
-    <meta name="description" content="Professional farm rodent management and solar farm protection in Ammanford & Llandeilo. David (Ex-Pestokil) provides Red Tractor compliant pest control and on-site repairs.">
+    <meta name="theme-color" content="#1e3d2b">
+
+    <title>Farm Rodent Control Ammanford & Llandeilo | Red Tractor Audit Support 2026</title>
+    <meta name="description" content="Professional farm rodent management & solar farm protection in Ammanford & Llandeilo. David (Ex-Pestokil) provides Red Tractor compliant pest control, RSPH certified trapping, and on-site welding repairs.">
+    <meta name="keywords" content="farm pest control Ammanford, Red Tractor audit Llandeilo, solar farm protection Carmarthenshire, agricultural rodent control Tywi Valley, farm welding repairs">
     <link rel="canonical" href="https://ammanford.valleypestexperts.co.uk" />
 
     <script type="application/ld+json">
@@ -13,6 +15,7 @@
       "@context": "https://schema.org",
       "@type": "PestControlService",
       "name": "Welsh Town & Country – Ammanford Farm & Solar Division",
+      "description": "Red Tractor compliant farm rodent control, solar farm asset protection, and agricultural repairs in Ammanford and Llandeilo.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Ammanford",
@@ -22,102 +25,141 @@
       "url": "https://ammanford.valleypestexperts.co.uk",
       "telephone": "+447375303124",
       "image": "https://ammanford.valleypestexperts.co.uk/images/rat-barn.jpg",
-      "knowsAbout": ["Red Tractor Audits", "Farm Rodent Control", "Solar Farm Pest Protection", "Agricultural Welding"]
+      "priceRange": "££",
+      "openingHours": "Mo-Su 00:00-23:59",
+      "knowsAbout": ["Red Tractor Audits", "Integrated Pest Management", "Farm Rodent Control", "Solar Farm Pest Protection", "Agricultural Welding"]
     }
     </script>
 
     <style>
         :root { --farm-green: #1e3d2b; --steel-grey: #454d49; --alert-red: #cc0000; --gold: #d4af37; --bg: #fdfdfd; }
         body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; line-height: 1.6; color: #333; background-color: var(--bg); text-align: center; }
-        header { background: var(--farm-green); color: white; padding: 3rem 1rem; border-bottom: 6px solid var(--gold); }
-        .badge { height: 80px; background: white; padding: 5px; border-radius: 5px; margin-bottom: 15px; }
-        .audit-tag { background: var(--alert-red); color: white; padding: 10px 25px; border-radius: 5px; font-weight: bold; display: inline-block; margin: 15px 0; border: 2px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
-        .call-now { background: var(--alert-red); color: white; padding: 22px 35px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; margin: 25px 0; font-size: 1.4rem; transition: 0.3s; box-shadow: 0 4px 15px rgba(204,0,0,0.3); }
-        .call-now:hover { transform: scale(1.05); background: #990000; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 2rem; max-width: 1200px; margin: auto; }
-        .card { background: #fff; border: 1px solid #ddd; padding: 15px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
-        .card img { width: 100%; border-radius: 8px; height: 220px; object-fit: cover; margin-bottom: 15px; }
-        .contract-section { background: white; padding: 3rem 1.5rem; border: 2px solid var(--farm-green); margin: 30px auto; border-radius: 20px; max-width: 900px; }
-        .repairs-box { background: #f0f4f2; padding: 2.5rem; border-left: 10px solid var(--steel-grey); text-align: left; max-width: 900px; margin: 30px auto; border-radius: 15px; }
-        .map-frame { border: 3px solid var(--farm-green); border-radius: 15px; max-width: 900px; width: 95%; height: 400px; margin-top: 20px; }
-        footer { background: #111; color: white; padding: 4rem 1rem; }
+        
+        header { background: linear-gradient(rgba(30, 61, 43, 0.9), rgba(30, 61, 43, 0.9)), url('/images/farm-header-bg.jpg'); background-size: cover; color: white; padding: 4rem 1rem; border-bottom: 6px solid var(--gold); }
+        .badge-container { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; }
+        .badge { height: 75px; background: white; padding: 8px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        
+        .audit-tag { background: var(--alert-red); color: white; padding: 12px 30px; border-radius: 5px; font-weight: bold; display: inline-block; margin: 15px 0; border: 2px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.2); text-transform: uppercase; letter-spacing: 1px; }
+        
+        .call-now { background: var(--alert-red); color: white; padding: 22px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; margin: 25px 0; font-size: 1.5rem; transition: 0.3s; box-shadow: 0 6px 20px rgba(204,0,0,0.4); border: 3px solid white; }
+        .call-now:hover { transform: translateY(-3px); background: #ee0000; box-shadow: 0 8px 25px rgba(204,0,0,0.5); }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; padding: 2rem; max-width: 1250px; margin: auto; }
+        .card { background: #fff; border: 1px solid #eee; padding: 20px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: 0.3s; text-align: left; }
+        .card:hover { transform: translateY(-5px); border-color: var(--farm-green); }
+        .card img { width: 100%; border-radius: 10px; height: 200px; object-fit: cover; margin-bottom: 15px; border: 1px solid #eee; }
+        .card h3 { color: var(--farm-green); margin-top: 0; }
+        
+        .contract-section { background: white; padding: 3.5rem 2rem; border: 2px solid #e0eadd; margin: 40px auto; border-radius: 25px; max-width: 950px; box-shadow: inset 0 0 20px rgba(30, 61, 43, 0.05); }
+        .contract-section h2 { color: var(--farm-green); margin-bottom: 1.5rem; }
+        
+        .repairs-box { background: #f4f7f5; padding: 3rem; border-left: 12px solid var(--steel-grey); text-align: left; max-width: 950px; margin: 40px auto; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        .repairs-box h3 { color: var(--steel-grey); font-size: 1.8rem; margin-top: 0; }
+        .repairs-box ul { padding-left: 20px; }
+        .repairs-box li { margin-bottom: 12px; font-size: 1.1rem; }
+        
+        .wasp-notice { background: #fff3cd; border: 2px dashed #856404; padding: 20px; border-radius: 10px; margin: 20px auto; max-width: 600px; display: inline-block; font-weight: bold; }
+
+        .map-frame { border: 4px solid var(--farm-green); border-radius: 20px; max-width: 950px; width: 95%; height: 450px; margin: 30px auto; }
+        
+        footer { background: #111; color: white; padding: 5rem 1.5rem; margin-top: 50px; }
         footer a { color: var(--gold); text-decoration: none; font-weight: bold; }
+        footer p { opacity: 0.8; font-size: 0.9rem; margin-bottom: 10px; }
+        
         .seo-link { color: var(--farm-green); text-decoration: underline; font-weight: bold; }
+        
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            .grid { padding: 1rem; }
+            .repairs-box { padding: 1.5rem; }
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="/images/rsph-cert-badge.png" alt="RSPH Certified Farm Pest Controller" class="badge">
-    <br>
-    <div class="audit-tag">TYWI VALLEY AUDIT SUPPORT</div>
+    <div class="badge-container">
+        <img src="/images/rsph-cert-badge.png" alt="RSPH Level 2 Certified" class="badge">
+        <img src="/images/red-tractor-logo.png" alt="Red Tractor Compliant Service" class="badge" style="background: transparent;">
+    </div>
+    <div class="audit-tag">TYWI VALLEY AUDIT & COMPLIANCE SUPPORT</div>
     <h1>Ammanford & Llandeilo Farm Pest Services</h1>
-    <p>Professional Rodent Management • Solar Farm Protection • Practical Farm Repairs</p>
+    <p>30+ Years Experience • Former Pestokil Technician • Fully Insured Specialist</p>
 </header>
 
-<a href="tel:+447375303124" class="call-now">📞 Call David: 07375 303124</a>
+<a href="tel:+447375303124" class="call-now">📞 Call David Hill: 07375 303124</a>
 
 <section class="contract-section">
-    <h2>Audit-Ready Rodent Control for Carmarthenshire Farms</h2>
+    <h2>Audit-Ready Rodent Control for Carmarthenshire Holdings</h2>
     <p>
-        Whether you are facing a <strong>Red Tractor, SALSA, or retailer audit</strong>, we provide the documented Integrated Pest Management (IPM) required for compliance in 2026. David (Ex-Pestokil) brings 30+ years of industrial experience to Tywi Valley holdings.
+        As a former <strong>Pestokil technician</strong> with over 30 years of field experience, I understand the pressures of modern farm compliance. Whether you are facing a <strong>Red Tractor, SALSA, or retailer audit</strong>, I provide the documented Integrated Pest Management (IPM) required for 2026 standards.
     </p>
     
+    
+
     <p>
-        We focus on <strong>poison-free trapping</strong> where possible to protect your livestock and working dogs, backed up by professional site mapping and digital visit reports that auditors expect.
+        My focus is on <strong>poison-free trapping</strong> and environmental management wherever possible. This protects your valuable working dogs, livestock, and local wildlife. I provide professional site mapping and digital visit reports as standard—the exact documentation auditors look for.
     </p>
 </section>
+
+<div class="wasp-notice">
+    🐝 Seasonal Wasp Nest Treatment: £80 fixed price. <br>
+    Only £20 for every extra nest treated on the same site visit.
+</div>
 
 <section class="grid">
     <div class="card">
         <img src="/images/rat-barn.jpg" alt="Farm Rodent Monitoring Station Ammanford">
-        <h3>Farm Rodent Contracts</h3>
-        <p>Managed rodent control for livestock sheds, grain stores, and feed areas. We keep you compliant and your feed secure.</p>
-        <p><a href="/farm-rodent-management.html" class="seo-link">Audit-Ready Plans</a></p>
+        <h3>Agricultural Rodent Contracts</h3>
+        <p>Expert rodent management for livestock sheds, grain stores, and feed rooms. I keep your feed secure and your audit folder full.</p>
+        <p><a href="/farm-rodent-management.html" class="seo-link">View Audit-Ready Plans</a></p>
     </div>
 
     <div class="card">
-        <img src="/images/rabbit-farm.jpg" alt="Solar Farm Protection Llandeilo">
+        <img src="/images/solar-panels.jpg" alt="Solar Farm Protection Llandeilo">
         <h3>Solar Asset Protection</h3>
-        <p>Specialist management for solar arrays in the Tywi Valley. Preventing cable damage and protecting ground stability.</p>
-        <p><a href="/solar-farm-pest-control.html" class="seo-link">Solar Site Services</a></p>
+        <p>Specialist management for solar arrays across the Tywi Valley. Preventing rodent-related cable damage and ensuring site integrity.</p>
+        <p><a href="/solar-farm-pest-control.html" class="seo-link">Solar Farm Services</a></p>
     </div>
 
     <div class="card">
-        <img src="/images/mole-farm.jpg" alt="Farm Mole Trapping Carmarthenshire">
-        <h3>Mole & Land Management</h3>
-        <p>Moles compromise silage quality and damage machinery. We offer traditional trapping across pasture and paddocks.</p>
+        <img src="/images/mole-traps.jpg" alt="Farm Mole Trapping Carmarthenshire">
+        <h3>Mole & Pasture Management</h3>
+        <p>Mole hills compromise silage quality (listeria risk) and damage expensive machinery. Traditional, poison-free trapping specialists.</p>
         <p><a href="https://welshmolecatcher.co.uk" target="_blank" class="seo-link">welshmolecatcher.co.uk</a></p>
     </div>
 </section>
 
 <section class="repairs-box">
-    <h3>🛠️ Practical On-Site Farm Support</h3>
-    <p>We don't just put down traps; we fix the source of the problem. Our farm maintenance services include:</p>
+    <h3>🛠️ Practical On-Site Farm Support & Welding</h3>
+    <p>Unlike standard pest control companies, I don't just leave a trap and drive away. I fix the holes the rodents are using. My background in maintenance allows me to offer:</p>
     <ul>
-        <li><strong>On-Site Welding:</strong> Fixing gates, feeders, and cattle handling gear.</li>
-        <li><strong>Gate & Fence Repairs:</strong> Ensuring your perimeter is secure against pests and livestock escape.</li>
-        <li><strong>Solar Farm Support:</strong> Specialized support for renewable energy site boundaries and infrastructure.</li>
+        <li><strong>On-Site Welding:</strong> Expert repairs for gates, feeders, and cattle handling systems to keep your site operational.</li>
+        <li><strong>Rodent Proofing:</strong> Permanent structural repairs using steel mesh and heavy-duty materials to deny pest entry.</li>
+        <li><strong>Fence & Gate Maintenance:</strong> Perimeter security to prevent livestock escape and unauthorized access.</li>
+        <li><strong>Solar Site Support:</strong> Boundary maintenance and infrastructure protection for renewable energy assets.</li>
     </ul>
 </section>
 
-<div class="local-info" style="background:#fff; padding:3rem 1rem;">
-    <h3>Serving Ammanford, Llandeilo & the Tywi Valley</h3>
-    <p>Regularly supporting farms and businesses in:<br>
-    <strong>Betws • Tycroes • Glanamman • Brynamman • Ffairfach • Llandybie</strong></p>
+<div class="local-info" style="background:#fff; padding:3.5rem 1.5rem; border-top: 1px solid #eee;">
+    <h3>Serving the Heart of Carmarthenshire</h3>
+    <p>Providing regular site visits and emergency call-outs for farms and solar assets in:<br>
+    <strong>Ammanford • Llandeilo • Betws • Tycroes • Glanamman • Brynamman • Ffairfach • Llandybie</strong></p>
     
-    <img src="/images/brecon-farm-pest-control.png" alt="Serving the Brecon Borders" style="width: 100%; max-width: 450px; margin-bottom: 20px;">
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+        <img src="/images/area-map.png" alt="Service Area Map Ammanford" style="width: 100%; max-width: 600px; border-radius: 15px; border: 2px solid #eee;">
+    </div>
     
-    <img src="/images/area.png" alt="Service Area Map Ammanford" style="width: 90%; max-width: 800px; border-radius: 15px; margin-bottom: 20px;">
-    
-    <iframe class="map-frame" src="https://www.google.com/search?q=https://www.google.com/maps%3Fcid%3DYOUR_GBP_ID_HERE" allowfullscreen="" loading="lazy"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78906.123456789!2d-4.045!3d51.79!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e9270500e575d%3A0xc3f7a188f5f40958!2sAmmanford!5e0!3m2!1sen!2suk!4v1234567890" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
 <footer>
-    <p><strong>Welsh Town & Country Pest Services – Ammanford Division</strong></p>
-    <p><a href="https://www.google.com/search?q=Welsh+Town+%26+Country+Pest+Services" target="_blank">⭐⭐⭐⭐⭐ VIEW OUR 5-STAR REVIEWS</a></p>
-    <p>RSPH Level 2 | David: 07375 303124</p>
-    <p>© 2026 | Agricultural Rodent Control & Farm Support – Ammanford & Llandeilo</p>
+    <p><strong>Welsh Town & Country Pest Services – Ammanford & Tywi Valley Division</strong></p>
+    <p>© 2026 | RSPH Level 2 Certified | SUoR Certified (Safe Use of Rodenticides)</p>
+    <p>Managed by David Hill: 30+ Years Experience | Former Pestokil Technician</p>
+    <br>
+    <p><a href="https://www.google.com/search?q=Welsh+Town+%26+Country+Pest+Services" target="_blank">⭐⭐⭐⭐⭐ 5-STAR SERVICE - VIEW REVIEWS</a></p>
+    <p>Contact David Directly: <a href="tel:+447375303124">07375 303124</a></p>
 </footer>
 
 </body>
